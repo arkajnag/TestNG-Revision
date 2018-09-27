@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Include and Exclude Execution Suite">
+  <groups>
+ 	 <run>
+  		<include name="Regression"/>
+  	 </run>
+  </groups>
+  
+  
+  <test name="Include and Exclude">
+   
+    <classes>
+      <class name="com.qa.RevisionTestNG.MultiplePackage.MultiplePackageExecutionUsingXML1">
+      <methods>
+      <exclude name="Test3"/>
+      </methods>
+      </class>
+      
+      <class name="com.qa.RevisionTestNG.MultiplePackage.MultiplePackageExecutionUsingXML2">
+      <methods>
+      <include name="TestCase2"/>
+      </methods>
+      </class>
+      
+    </classes>
+  </test> 
+</suite> 

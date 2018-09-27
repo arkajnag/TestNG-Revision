@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Execution All TestCases in Multiple Packages">
+  <test name="TestCases in Multiple Packages">
+    <packages>
+    <package name="com.qa.RevisionTestNG.DifferentFeatures"/>
+    <package name="com.qa.RevisionTestNG.MultiplePackage"/>
+    </packages>
+  </test> 
+</suite> 
